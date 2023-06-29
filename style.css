@@ -1,0 +1,60 @@
+body{
+    width: 100vw;
+}
+
+table {
+    border-collapse: collapse;
+    width: auto;
+    overflow-x: auto;
+}
+th,
+td {
+    border: 1px solid #333;
+    min-width: 80px;
+}
+
+tr{
+    height: 20px;
+    line-height: 20px;
+}
+
+td:focus {
+    outline: none;
+}
+
+#current-cell-div{
+    border: 1px solid black;
+    width: 100px;
+    text-align: center;
+    position: relative;
+    
+
+}
+#current-cell{
+    font-size: 15px;
+
+}
+.ff{
+    display: flex;
+    box-sizing: 50px;
+    background-color:rgb(102, 169, 102);
+    align-items: baseline;
+    justify-content: space-between;
+    overflow-x: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    
+}
+body{
+    background-color: rgb(216, 213, 213);
+}
+#bold-btn{
+    font-weight: bold;
+}
+#italics-btn{
+    font-style: italic;
+    font-weight: lighter;
+
+}
